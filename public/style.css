@@ -1,0 +1,70 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+  height:100vh;
+}
+.home{
+  background: url("https://64.media.tumblr.com/cbe82b13ff342b6fb5e65550654ce0d5/tumblr_ngowv27tJ41qdcdwpo1_1280.png") center repeat;
+  background-size: auto;
+}
+#profileBg{
+  background: url("https://i.pinimg.com/originals/08/b6/a8/08b6a8de6d482f73adf3d1e9f748eefb.jpg") center repeat;
+  background-size: contain;
+}
+
+.profile{
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65));
+  border: 3px solid white;
+  color: white;
+}
+
+.header{
+  padding: 1.2rem;
+}
+.jumbotron{
+  background-color: #EEEEEE;
+}
+
+.jumbotron img{
+  margin-top: 2rem;
+}
+
+.jumbotron p{
+  font-size: 25px;
+  margin-top: 1rem;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-top: 3px solid white;
+}
+.messages{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.message{
+  font-size: 18px;
+  border: 3px solid white;
+  padding: 0.75rem;
+}
+ul{
+  list-style: none;
+}
+
+img{
+  height: 250px;
+}
+textarea{
+  text-align: left;
+}
+
+#userInput{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-bottom: 80px;
+}
